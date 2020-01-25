@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons color="light" slot="start">
+      <ion-back-button text="" defaultHref="product"></ion-back-button>
+    </ion-buttons>ผลิตภัณฑ์ข้าวแปรรูป
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <img src="../assets/images/a6.png"  alt="">
+      <h1><ion-card-title>ข้าวกล้องหอมมะลิออร์แกนิค (ทุ่งกุลาร้องไห้) บรรจุสูญญากาศ 1 กิโลกรัม</ion-card-title></h1>
+    </ion-card-header>
+
+    <ion-card-content>
+<b>รายละเอียดสินค้า</b><br>
+      เป็นข้าวหอมมะลิออร์แกนิค ที่ผ่านการกระเทาะเปลือกและคัดคุณภาพเกรดส่งออก (100% ชั้น 2) ผ่านการปลูกและรับรองมาตรฐานต่างๆ ดังนี้ - มาตรเกษตรอินทรีย์สากล IFOAM - มาตรฐานเกษตรอินทรีย์ ยุโรป EU - มาตรฐานเกษตรอินทรีย์สหรัฐอเมริกา NOP - มาตรฐานสิ่งบ่งชี้ทางภูมิศาสตร์ไทยและยุโรป GI - มาตรฐานการค้าที่เป็นธรรม (แฟร์เทรด) Fairtrade International
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon color="success" name="cash" slot="start"></ion-icon>
+      <ion-label>85.00 ฿</ion-label>
+    </ion-item>
+  </ion-card>
+
+  <ion-card (click)="callNow('0868754838')">
+    <ion-item>
+      <ion-icon color="secondary" name="phone-portrait" slot="start"></ion-icon>
+      <ion-label>086-8754838</ion-label>
+      <ion-icon color="secondary" name="call" fill="outline" slot="end"></ion-icon>
+    </ion-item>
+  </ion-card>
+
+  <ion-card href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.thairicedb.com%2Fnichemarketgroup-detail.php%3Fid%3D191%26fbclid%3DIwAR02vac1_1MDFLNiQh5tNb_PWcgGfTSN8OOaUxuuKtH54DbX6EreizdmiVo&h=AT0iwpPMW6yXeth_N-hhxdWGQas-Gzqu_4f7WOg8cTy2DgWYf6J9kD0WNZLucPMLNBhuISM4q7t7IB3jPW4kNdsHbazdJYbMLmXzL62nAPzwshyE-34Sjp3nVb7H1abBOCqL0w">
+    <ion-item>
+            <ion-label>
+      <ion-icon color="tertiary" name="globe" slot="start"></ion-icon>
+      วิสาหกิจชุมชนศูนย์ข้าวชุมชนบ้านอุ่มแสง</ion-label>
+      <ion-icon color="tertiary" name="paper-plane" fill="outline" slot="end"></ion-icon>
+    </ion-item>
+  </ion-card>
+
+  <ion-card routerLink="/map1">
+    <ion-item>
+      <ion-icon color="danger" name="pin" slot="start"></ion-icon>
+      <ion-label>อ.ราษีไศล</ion-label>
+      <ion-icon color="danger" name="bus" fill="outline" slot="end" ></ion-icon>
+    </ion-item>
+  </ion-card>
+
+</ion-content>
